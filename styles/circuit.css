@@ -1,0 +1,16 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.photo div {
+    display: flex;
+    gap: 30px;
+}
+
+.photo img{
+    width: 280px;
+    border-radius: 12px;
+
+}

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}
+nav h1{
+    font-size: 3em;
+    color: red;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 22px;
+    color: black;
+
+}
+ul a:hover{
+    text-decoration: line-through;
+    color: yellow;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px #000;
+    width: 350px;
+    padding: 10px;
+    
+}
+form h4{
+    text-align: center;
+}
+.name-first{
+    display: flex;
+
+    
+}
+.name-first div{
+     display: flex;
+     flex-direction: column;
+     margin: 5px;
+     width: 49%;
+}
+label{
+    padding: 6px;
+}
+input{
+    padding: 5px;
+}
+.btn{
+    margin-top: 15px;
+}
